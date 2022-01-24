@@ -1,1 +1,11 @@
 ![image](https://github.com/Knight-J/picture/blob/master/amba.png?raw=true)
+
+AMBA 1只有ASB和APB协议；
+
+到了AMBA 2引入AHB协议用于高速数据传输；
+
+发展到AMBA 3，为适应高吞吐量传输和调试引入AXI和ATB，而AHB协议缩减为AHB-lite，APB协议增加了PREADY和PSLVERR，ASB由于设计复杂而不再使用；
+
+到了AMBA 4，AXI得到了增强，引入QOS和long burst的支持，根据应用不同可选AXI4，AXI4-lite，AXI4-stream，同时为满足复杂SOC的操作一致性引入ACE和ACE-lite协议，APB和ATB也同时得到增强，比如APB加入了PPROT和PSTRB，另外为改善总线数据传输引入QVN协议；
+
+最近，为了适应更加复杂的高速NOC设计，引入环形总线协议，推出的AMBA CHI协议。
